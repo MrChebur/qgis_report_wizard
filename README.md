@@ -14,6 +14,10 @@ A set of sample templates and test data can be found in the [test/templates dire
 - [jinja2](https://jinja.palletsprojects.com/en/3.0.x/)  usually bundled with QGIS distribution or `pip install jinja2` if not provided
 - [secretary](https://github.com/christopher-ramirez/secretary)  bundled with the plugin as external library
 
+If after installing the plugin you get the error `cannot import name 'evalcontextfilter' from 'jinja2'`, you need to downgrade some libraries, more on that [here](https://github.com/enricofer/qgis_report_wizard/issues/7).
+
+
+
 ## jinja2 template syntax
 
 The template engine parses text document and injects contents from a provided data environment following instructions contained in  of template tags: 
